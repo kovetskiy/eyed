@@ -1,0 +1,9 @@
+[Unit]
+Description=gateway server for pam_eye module
+
+[Service]
+ExecStart=/usr/bin/eyed
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
