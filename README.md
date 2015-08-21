@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kovetskiy/eyed.svg?branch=master)](https://travis-ci.org/kovetskiy/eyed)
+
 # eyed
 
 ![eye](https://cloud.githubusercontent.com/assets/8445924/9405831/a3d9e984-47ea-11e5-8f5a-d9a62a2530d3.png)
