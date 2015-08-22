@@ -84,6 +84,11 @@ func (handler *ReportsHandler) ServeHTTP(
 
 	hostname := strings.Trim(request.URL.Path, "/")
 
+	if hostname == "" || strings.Contains(hostname, "/") {
+		http.Error(response, "bad hostname", http.StatusBadRequest)
+		return
+	}
+
 	log.Printf("got report for '%s' hostname", hostname)
 
 	file, err := os.OpenFile(
