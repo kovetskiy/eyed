@@ -1,5 +1,5 @@
 [Unit]
-Description=gateway server for pam_eye module
+Description=pam_eye server gateway
 
 [Service]
 ExecStart=/usr/bin/eyed
